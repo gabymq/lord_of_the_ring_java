@@ -1,0 +1,1 @@
+javac -d .\out -sourcepath src\java\main -cp out\ src\java\main\com\bootcamp\ejercicio1\app\Init.java
