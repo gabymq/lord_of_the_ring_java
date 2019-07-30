@@ -118,7 +118,7 @@ public class Personaje{
 		return.this.pntosVida;
 	}
 
-	public void setName(int pntosVida){
+	public void setPntsVida(int pntosVida){
 		if((pntosVida)>0 && ((pntosVida})>=100)){
 			this.pntosVida = pntosVida;
 		}else{
@@ -126,6 +126,28 @@ public class Personaje{
 		}
 
 	}
+
+	@Override
+		public boolean equals(Object obj){
+			if(this == anObject){
+			return true;
+			}
+			if(object instanceof String){
+				this.name = this.name.length;
+			if()
+			}
+
+		}
+
+	public class initSkill(Map<String, Integer>, skills){
+		this.setAtaque(this.ataque + skills.get("Ataque"));
+		this.setAgilidad(this.agilidad + skills.get("Agilidad"));
+		this.setMagia(this.magia + skills.get("Magia"));
+		this.setDefensa(this.defensa + skills.get("Defesa"));
+		this.setPntsVida(this.vida + skills.get("Vida"));
+
+	}
+
 
 	//public void imprimeDatos(String nombre, int edad, char sexo){
 	//	System.out.println("Mi nombre es: " + nombre);

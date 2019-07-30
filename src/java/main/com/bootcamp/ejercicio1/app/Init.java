@@ -9,8 +9,7 @@ public class Init{
 		public static void main(String args[]){
 		System.out.println("\nBienvenido a mi juego\n");
 
-		Personaje personaje = new Personaje();
-		personaje.imprimeDatos("Gabriela", 37,'F', 2, 5 , 2);
+		Personaje personaje= IniciarJuego.crearPersonaje("Humano","Arquero");
 
 	}
 
